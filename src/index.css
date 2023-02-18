@@ -28,7 +28,7 @@
 .header-img{
     flex: 1;
     padding-left: 102px;
-    padding-top: 30px;
+    padding-top: 93px;
 }
 .header-text > h1{
     font-family: 'Merriweather';
@@ -103,7 +103,7 @@
     color: #484848;
 }
 .hero-img{
-  width: 50%;
+  flex: 50%;
 }
 .hero-img-cont{
   width: 80%;
@@ -225,17 +225,36 @@ background-color: #1ABB9C;
 }
 
 /* login and signup */
+.lab label{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  color: #000000;
+  margin-left: 9px;
+}
+.lab{
+  margin-top: 33px;
 
+}
+.labs{
+  /* background-color: #891180; */
+  width: 70%;
+  margin: auto;
+  text-align: start;
+}
 .form-group {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    width: 80%;
+    width: 70%;
     margin: auto;
-    margin-top: 33px;
+    position: relative;
   }
 
-  .form-group label {
+  .form-group .label {
     margin-right: 1rem;
     font-size: 1.2rem;
     color: #555;
@@ -247,9 +266,10 @@ background-color: #1ABB9C;
     display: block;
     width: 85%;
     margin: auto;
+     margin-top: 28px;
     padding: 20px 50px;
     text-align: start;
-    font-size: 1.2rem;
+    font-size: 20px;
     border: 2px solid #484848;
     border-radius: 12px;
     box-shadow: inset 1px 1px 3px #891180;
@@ -265,6 +285,7 @@ background-color: #1ABB9C;
     color: #ccc;
     font-size: 1.2rem;
     margin-right: 0.5rem;
+    position: absolute;
   }
   
   .form-button {
@@ -289,6 +310,7 @@ background-color: #1ABB9C;
   .login-page{
     display: flex;
     width: 100%;
+    margin: auto;
   }
   .frame{
     width: 100%;
@@ -298,7 +320,7 @@ background-color: #1ABB9C;
     text-align: center;
     background: #FFF8F8;
     border-radius: 12px;
-    width: 50%;
+    width: 45%;
   }
   .frame-cont > h2{
     font-family: 'Lora';
@@ -323,7 +345,7 @@ background-color: #1ABB9C;
     padding-top: 30px;
   }
   .login-cont{
-    width: 50%;
+    width: 45%;
     margin: auto;
     text-align: center;
     margin-top: 80px;
@@ -332,18 +354,20 @@ background-color: #1ABB9C;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 52px;
     line-height: 120%;
     color: #000000;
+    letter-spacing: 0.08em;
   }
   .login-cont > p{
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 150%;
     color: #484848;
     margin-bottom: 40px;
+    letter-spacing: 0.08em;
   }
   /* .form-log{
     background: #FFFFFF;

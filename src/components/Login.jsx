@@ -31,32 +31,45 @@ function Login() {
           </button> */}
      
         <form onSubmit={handleLogin}>
-          <div className="form-group">
-            <label htmlFor="username-input">
-              <FontAwesomeIcon icon={faEnvelope} className="form-icon" />
-            </label>
-            <input
-              id="username-input"
-              type="email"
-              className="form-input"
-              placeholder="Email Address"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-            />
+        <div className='lab'>
+            <div className='labs'><label htmlFor="email-input">Email</label></div>
+            <div className="form-group">
+                <div className='label'>
+                  <FontAwesomeIcon icon={faEnvelope} className="form-icon" />
+                </div>
+            
+              <input
+                id="username-input"
+                type="email"
+                className="form-input"
+                placeholder="Email Address"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+              />
+            </div>
           </div>
-          <div className="form-group">
-            <label  htmlFor="password-input">
-              <FontAwesomeIcon icon={faEyeSlash} className="form-icon" />
-            </label>
-            <input
-              id="password-input"
-              type="password"
-              className="form-input"
-              placeholder="Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
+
+          <div className='lab'>
+            <div className='labs'>
+              <label  htmlFor="password-input">
+                  Password
+              </label>
+            </div>
+            <div className="form-group">
+             <div className='label'>
+               <FontAwesomeIcon icon={faEyeSlash} className="form-icon" />
+             </div>
+              <input
+                id="password-input"
+                type="password"
+                className="form-input"
+                placeholder="8 digits characters"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </div>
           </div>
+          
           <div className='click-cont'>
             <label className='container'>
               <input

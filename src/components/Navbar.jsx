@@ -13,12 +13,14 @@ export default function Navbar() {
                 <div className="options">
                     <ul className="opt">
                         <li>Services</li>
-                        <li>About us</li>
-                        <li>Contact us</li>
+                        <li>About Us</li>
+                        <Link to="/contact" style={{textDecoration:'none'}}>
+                            <li style={{paddingTop:8, color:"black"}}>Contact Us</li>
+                        </Link>
 
                      <span >
-                        <Link to="/signup"><button className="click-sign">Sign up</button></Link>
-                        <Link to="/login" ><button className="click-signs">Login</button></Link>
+                        <Link to="/signup"><button className="click-signs">Get Started</button></Link>
+                        <Link to="/login" ><button className="click-sign">Login</button></Link>
                      </span>
                     </ul>
                 </div>

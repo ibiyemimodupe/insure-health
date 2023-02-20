@@ -1,5 +1,5 @@
 import React from "react"
-import pic from "./images/Pediatrician-amico 1.png"
+import pic from "./images/rafiki.png"
 
 export default function Header() {
     return(

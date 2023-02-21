@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import logo from "./images/Group 23.png"
 import doc from "./images/Group 1.png"
-import live from "./images/live.png"
+import LiveChat from "./LiveChat";
 
 export default function Contact() {
     const [username, setUsername] = useState('');
@@ -88,7 +88,7 @@ export default function Contact() {
                 </div>
 
                 <div className="live">
-                    <img src={live} alt="live chat" width='25%' />
+                    <LiveChat />
                 </div>
             </div>
         </div>

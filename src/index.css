@@ -865,3 +865,115 @@ input:checked + .slider:before {
   float: right;
   width: 15%;
 }
+.live-chat {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+
+.live-chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+  background: #FFF6F6;
+}
+
+.live-chat-title {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.live-chat-close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #777;
+}
+
+.live-chat-messages {
+  max-height: 300px;
+  overflow-y: hidden;
+  padding: 10px;
+}
+.live-chat-messages:hover{
+  overflow-y: scroll;
+}
+
+.live-chat-message {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.live-chat-message-text {
+  background-color: #dcf8c6;
+  padding: 10px;
+  border-radius: 10px;
+  color: #333;
+  max-width: 80%;
+}
+
+.live-chat-form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 94.1%;
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  border-top: 1px solid #ccc;
+  background:#D8B0D5;;
+}
+
+.live-chat-form input[type="text"] {
+flex: 1;
+border: none;
+outline: none;
+padding: 10px;
+margin-right: 10px;
+border-radius: 20px;
+}
+
+.live-chat-form button[type="submit"] {
+background-color: #1ABB9C;
+border: none;
+color: #fff;
+font-weight: bold;
+padding: 10px 20px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.live-chat-form button[type="submit"]:hover {
+background-color: #128c7e;
+}
+
+.live-chat-form button[type="submit"]:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+
+.live-chat-whatsapp-icon {
+width: 40px;
+height: 40px;
+position: fixed;
+bottom: 20px;
+right: 20px;
+cursor: pointer;
+}
+
+.live-chat-whatsapp-icon:hover {
+opacity: 0.8;
+}

@@ -23,7 +23,7 @@ function Login() {
   function handleLogin(event) {
     event.preventDefault();
     // handle login logic here
-    window.location.href = "/";
+    window.location.href = "/home";
   }
 
   return (

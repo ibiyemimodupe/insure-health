@@ -17,22 +17,27 @@ function SlideText({slides}) {
   }, [currentIndex, slides.length]);
 
   return (
-    <div className='slides'>
-      {slides.map((slide, index) => (
-        <CSSTransition
-          key={index}
-          in={index === currentIndex}
-          classNames="slide"
-          timeout={300}
-          mountOnEnter
-          unmountOnExit
-        >
-          <div className='slide-text'>
-            <h3>{slide.text}</h3>
-            <p>{slide.description}</p>
-          </div>
-        </CSSTransition>
-      ))}
+    <div>
+      <div className='exp'>
+        <p><span>Hear from our clients</span></p>
+      </div>
+      <div className='slides'>
+        {slides.map((slide, index) => (
+          <CSSTransition
+            key={index}
+            in={index === currentIndex}
+            classNames="slide"
+            timeout={300}
+            mountOnEnter
+            unmountOnExit
+          >
+            <div className='slide-text'>
+              <h3>{slide.text}</h3>
+              <p>{slide.description}</p>
+            </div>
+          </CSSTransition>
+        ))}
+      </div>
     </div>
   );
 }

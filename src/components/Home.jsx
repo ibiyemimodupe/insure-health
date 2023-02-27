@@ -6,6 +6,8 @@ import frame from './images/Frame 4.png'
 import bro from './images/bro.png'
 import SearchBar from './SearchBar';
 import ParentComponent from "../filter/ParentComponent"
+import HmoData from "./data/HmoData"
+import Card from "../Card"
 
 function backToHome(event) {
     event.preventDefault();
@@ -18,6 +20,24 @@ export default function Home() {
         console.log(`Searching for ${searchTerm}...`);
         // Do something with the search term
     }
+
+    const card = HmoData.map(item => {
+        return (
+            <Card 
+               company={item.company}
+               logo={item.logo}
+               office={item.office}
+               address={item.address}
+               other={item.other}
+               offer={item.offer}
+               text={item.text}
+               health={item.health}
+               care={item.care}
+               afford={item.afford}
+               coverage={item.coverage}
+            />
+        )
+    }) 
     
     return(
         <div>
@@ -41,7 +61,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div>
+            <div >
             <SearchBar onSearch={handleSearch} />
             {/* Other content */}
             </div>
@@ -62,10 +82,11 @@ export default function Home() {
                 </div>
             </div>
 
-            <div style={{display:'flex', justifyContent:'space-between'}}>
-                <ParentComponent />
-                <h1>xmcbzvjhb</h1>
-                <p>mbcvkcjjb</p>
+            <div  className="hmo__contain">
+                <div>
+                    <ParentComponent />
+                </div>
+                <div className="hmo__company">{card}</div>
             </div>
         </div>
     )

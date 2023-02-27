@@ -355,6 +355,7 @@ padding-top: 4rem;
 
 /* filter */
 .filter-btn{
+  position: relative;
   padding: 15px;
   background: transparent;
   width: 300px;
@@ -369,8 +370,14 @@ padding-top: 4rem;
   font-size: 18px;
   letter-spacing: 0.08em;
 }
+.filter-btn svg {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
 .filter-cont{
-    margin-left: 4rem;
     letter-spacing: 0.08em;
     line-height: 38px;
 }
@@ -378,39 +385,31 @@ padding-top: 4rem;
 .flt-location {
   padding-left: 20px;
   width: 280px;
-  /* height: 300px; */
   border: 0.941645px solid #000000;
   border-radius: 11.2997px;
-  /* background-color: #720E6B; */
 }
 .flt1-location {
   padding-left: 20px;
   width: 280px;
-  /* height: 170px; */
   border: 0.941645px solid #000000;
   border-radius: 11.2997px;
-  /* background-color: #720E6B; */
 }
 .flt2-location {
-  /* box-sizing: border-box; */
   padding-left: 20px;
   width: 280px;
-  /* height: 150px; */
   border: 0.941645px solid #000000;
   border-radius: 11.2997px;
-  /* background-color: #720E6B; */
 }
 .flt-loc-cont .label{
-  /* background-color: #9D3995; */
   width: 90%;
-height: 28px;
-padding: 4px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 28px;
-border-bottom: 1px solid black;
+  height: 28px;
+  padding: 4px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  border-bottom: 1px solid black;
 }
 input[type="checkbox"] {
   appearance: none;
@@ -432,4 +431,94 @@ input[type="checkbox"]:checked::before {
   height: 10px;
   background-color: #1ABB9C;
   border-radius: 50%;
+}
+.hmo__contain{
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.hmo__company{
+  margin-top: 1rem;
+  margin-bottom: 35px;
+  display: grid;
+  justify-content: space-around;
+  width: 80%;  
+  gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  margin-inline-start: 30px;
+}
+.home__card{
+  padding: 0px;
+  width: 380px;
+  border-radius: 8px;
+}
+.home_card_div h1{
+ font-family: 'Lora';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 27px;
+ line-height: 24px;
+ box-shadow: 0px 3px 4px 2px rgba(60, 163, 126, 0.5);
+ background-color: #D1F1EB;
+ padding: 10px  ;
+ height: 69px;
+ letter-spacing: 0.08em;
+ box-sizing: border-box;
+ color: #0D5E4E;
+}
+.home_card_div h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  padding: 5px 20px;
+  letter-spacing: 0.08em;
+  background-color: #D1F1EB;
+  color: #000000;
+}
+.home_card_div p{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 5px 20px;
+  background-color: #D1F1EB;
+  letter-spacing: 0.08em;
+  color: #000000;
+}
+.home_card_div button{
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  border-color: transparent;
+  background: #1ABB9C;
+  border-radius: 6.35294px;
+}
+.aa{  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px;
+  background-color: #D1F1EB;
+}
+.ab{  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #D1F1EB;
+  padding: 15px;
+}
+.dd{
+  width: 20%;
+  background-color: #D1F1EB;
+}
+.bb{
+background-color: #D1F1EB;
+border: 1px solid #117D68;
+border-radius: 8px;
+padding: 10px 10px 10px 0px;
 }

@@ -13,8 +13,29 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import About from "./components/about/About";
+// import HmoData from "./components/data/HmoData";
+// import Card from "./Card";
 
 function App() {
+
+//   const card = HmoData.map(item => {
+//     return (
+//         <Card 
+//            company={item.company}
+//            logo={item.logo}
+//            office={item.office}
+//            address={item.address}
+//            other={item.other}
+//            offer={item.offer}
+//            text={item.text}
+//            health={item.health}
+//            care={item.care}
+//            afford={item.afford}
+//            coverage={item.coverage}
+//         />
+//     )
+// })  
+
   return (
     <Router>
       <div>
@@ -49,6 +70,7 @@ function App() {
             element={
               <>
              <Home />
+             {/* {card} */}
              <Footer />
              </>
             } 

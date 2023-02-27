@@ -1,8 +1,14 @@
+import logo1 from "../images/frame 1.png"
+import logo2 from "../images/frame 2.png"
+import logo3 from "../images/frame 3.png"
+import logo4 from "../images/frame 42.png"
+import logo5 from "../images/frame 5.png"
+
 const HmoData = [
   {
     id: 1,
     company: "Axa Mansard Health Insurance Provider",
-    logo: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    logo: logo1,
     office:"Head Office ",
     address:"AXA MANSARD INSURANCE PLC. PLOT 1412, AHMADU BELLO WAY, VICTORIA ISLAND, LAGOS CORPORATE HEAD OFFICE",
     other:"View other Addresses",
@@ -16,7 +22,7 @@ const HmoData = [
   {
     id: 2,
     company: "Clearline Health Insurance Provider",
-    logo: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    logo: logo2,
     office:"Head Office",
     address:'CLEARLINE HOUSE.290 Ikorodu Road, Anthony. Lagos.',
     other:"View other Addresses",
@@ -29,7 +35,7 @@ const HmoData = [
   {
     id: 3,
     company: "Leadway Health Insurance Provider",
-    logo: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    logo: logo3,
     office:"Head Office ",
     address:'Leadway Health Limited, 121/123, Funso Williams Avenue, Iponri, Surulere Lagos',
     other:"View other Addresses",
@@ -43,7 +49,7 @@ const HmoData = [
   {
     id: 4,
     company: "Leadway Health Insurance Provider",
-    logo: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    logo: logo4,
     office:"Head Office ",
     address:'Head Office, 6th Floor, Elephant House. 214, Broad street, Lagos Island.',
     other:"View other Addresses",
@@ -57,7 +63,7 @@ const HmoData = [
   {
     id: 5,
     company: "Axa Mansard Health Insurance Provider",
-    logo: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    logo: logo5,
     office:"Head Office ",
     address:'32 Lanre Awolokun Street, Gbagada, Lagos Nigeria.',
     other:"View other Addresses",
@@ -69,3 +75,4 @@ const HmoData = [
     coverage:"View coverage"
   }
 ]
+export default HmoData;

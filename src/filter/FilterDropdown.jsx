@@ -47,8 +47,13 @@ const FilterDropdownWrapper = () => {
 
   return (
     <div className='filter-cont'>
-      <button className='filter-btn' onClick={handleFilterClick}>Filter</button>
-      {/* <FontAwesomeIcon icon={faArrowDown} /> */}
+      <button className='filter-btn' onClick={handleFilterClick}>
+  Filter 
+  <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M24.4837 13.0684C24.4844 13.256 24.443 13.4413 24.3626 13.6108C24.2822 13.7802 24.1648 13.9295 24.0192 14.0477L16.486 20.1119C16.2614 20.2966 15.9796 20.3975 15.6888 20.3975C15.398 20.3975 15.1162 20.2966 14.8915 20.1119L7.35835 13.8343C7.10195 13.6212 6.94071 13.3149 6.9101 12.9829C6.87949 12.6509 6.98202 12.3204 7.19513 12.064C7.40824 11.8076 7.71448 11.6463 8.04647 11.6157C8.37847 11.5851 8.70902 11.6877 8.96542 11.9008L15.695 17.513L22.4247 12.0891C22.609 11.9356 22.8334 11.838 23.0714 11.8081C23.3093 11.7781 23.5509 11.8169 23.7675 11.9199C23.9842 12.0229 24.1667 12.1859 24.2936 12.3894C24.4206 12.5929 24.4865 12.8286 24.4837 13.0684Z" fill="#121212"/>
+  </svg>
+</button>
+
       {isDropdownOpen && (
         <div className='flt-loc-cont'>
           <form onSubmit={handleSubmit}>

@@ -840,8 +840,9 @@ input:checked + .slider:before {
   color: rgba(0, 0, 0, 0.7);
 }
 .live{
-  /* background-color: chocolate; */
-  float: right;
+  color:  #484848;
+ font-weight: 500;
+ cursor: pointer;
   width: 15%;
 }
 .live-chat {
@@ -856,6 +857,7 @@ input:checked + .slider:before {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
+  z-index: 999;
 }
 
 

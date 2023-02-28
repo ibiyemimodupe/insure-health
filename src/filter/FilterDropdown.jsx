@@ -132,7 +132,7 @@ const FilterDropdownWrapper = () => {
             <div className='flt1-location'>
               <div className='label'>
                 <label>
-                  Services
+                  Service Plans
                 </label>
               </div>
                 

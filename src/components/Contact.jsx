@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import logo from "./images/Group 23.png"
 import doc from "./images/Group 1.png"
-import LiveChat from "./LiveChat";
+// import LiveChat from "./LiveChat";
 
 export default function Contact() {
     const [username, setUsername] = useState('');
@@ -87,9 +87,9 @@ export default function Contact() {
                     <p>Lagos street, Lagos Nigeria</p>
                 </div>
 
-                <div className="live">
+                {/* <div className="live">
                     <LiveChat />
-                </div>
+                </div> */}
             </div>
         </div>
     )

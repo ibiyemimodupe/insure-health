@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import live from "./images/live.png";
+// import live from "./images/live.png";
 import chat from "./images/Group 27077.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -28,7 +28,7 @@ export default function LiveChat() {
   return (
     <>
       <div onClick={toggleLiveChat}>
-        <img src={live} alt="chat box" width="30%" />
+       <p>Live Chat</p>
       </div>
       {isOpen && (
         <div className="live-chat">

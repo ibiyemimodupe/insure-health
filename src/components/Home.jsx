@@ -8,6 +8,7 @@ import SearchBar from './SearchBar';
 import ParentComponent from "../filter/ParentComponent"
 import HmoData from "./data/HmoData"
 import Card from "../Card"
+import LiveChat from "./LiveChat";
 
 function backToHome(event) {
     event.preventDefault();
@@ -55,7 +56,10 @@ export default function Home() {
                             <Link to="/contact" style={{textDecoration:'none'}}>
                                 <li style={{color:"black"}}>Contact Us</li>
                             </Link>
-                            <li><Profile /></li>
+                            <div className="live">
+                              <LiveChat />
+                            </div>
+                            <li style={{cursor:"pointer"}}><Profile /></li>
                         </ul>
                     </div>
                 </div>
@@ -67,7 +71,7 @@ export default function Home() {
             </div>
 
             <div className="insure-cont">
-                <h1>Pick from our <br /> arrays of <br /> Reliable Health <br /> Insurance <br /> Providers, the <br /> one that best <br /> suits your needs</h1>
+                <h1>Pick from our <br /> arrays of <br /> Reliable Health Insurance Providers, the one that best <br /> suits your needs</h1>
                 <img src={frame} alt="insure" width='100%' />
             </div>
 
@@ -76,7 +80,7 @@ export default function Home() {
                 <div className="health__div">
                     <img src={bro} alt="" width='100%'/>
                     <div className="health__text">
-                        <p>Get updates and info on heath care news, articles written by heath professionals and you get to make suggestions and get your inquires answered by the community</p>
+                        <p>Get updates and info on heath care news, articles written by health professionals and you get to make suggestions and get your inquires answered by the community</p>
                         <button className="talk-btn">Health Talks</button>
                     </div>
                 </div>

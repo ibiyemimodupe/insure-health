@@ -98,19 +98,19 @@ function Signup() {
 
             <div className='icon'>
                 <ul className="footer-list">
-                <li><SocialIcon url="https://facebook.com" bgColor="#0000FF" style={{width: 50, height:50}}/></li>
+                <li><SocialIcon url="https://facebook.com" bgColor="#891180" style={{width: 50, height:50}}/></li>
                 </ul>
             </div>
 
             <div className='icon'>
                 <ul className="footer-list">
-                <li><SocialIcon url="https://google.com"  bgColor="#DD4C4C"style={{width: 50, height:50}}/></li>
+                <li><SocialIcon url="https://google.com"  bgColor="#891180"style={{width: 50, height:50}}/></li>
                 </ul>
             </div>
 
             <div className='icon'>
                 <ul className="footer-list">
-                <li><FontAwesomeIcon icon={faAppleWhole} bgColor="#282D2D"style={{width: 50, height:50}} /></li>
+                <li><FontAwesomeIcon icon={faAppleWhole} bgColor="#891180"style={{width: 50, height:50}} /></li>
                 </ul>
             </div>
 

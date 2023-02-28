@@ -86,7 +86,7 @@
         display: flex;
         list-style: none;
         align-items: center;
-        gap: 32px;
+        gap: 42px;
     }
     .logo1 img {
         width: 100%;
@@ -98,6 +98,7 @@
     .options1 {
         align-items: center;
         color:  #484848;
+        width: 50%;
     }
     
 /* searchBar */  
@@ -157,6 +158,7 @@
       letter-spacing: 0.08em;
       color: #1B031A;
       background: #FFF6F6;
+      padding-left: 1.5rem;
       text-shadow: 1.63528px 1.63528px 3.27056px rgba(0, 0, 0, 0.25);
       }
       .insure-cont img{
@@ -436,6 +438,7 @@ input[type="checkbox"]:checked::before {
   width: 90%;
   margin: auto;
   display: flex;
+  margin-top: 30px;
 }
 .hmo__company{
   margin-top: 1rem;

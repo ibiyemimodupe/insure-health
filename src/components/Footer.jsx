@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import sub from "./images/Group 345.png"
+import { Link } from "react-router-dom";
 import { SocialIcon } from 'react-social-icons';
 
 export default function Footer() {
@@ -44,7 +45,10 @@ export default function Footer() {
                    </div>
                    <div>
                     <ol className="footer-table">
-                        <li><span> About Us</span></li>
+                        
+                        <Link to="/about" style={{textDecoration:'none'}}>
+                        <span> About Us</span>
+                        </Link>
                         <li>About InsureHealth</li>
                         <li>How To Use</li>
                         <li>Contact us</li>

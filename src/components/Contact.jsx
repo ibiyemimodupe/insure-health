@@ -14,11 +14,16 @@ export default function Contact() {
         window.location.href = "/";
       }
 
+      function backToHome(event) {
+        event.preventDefault();
+        // handle login logic here
+        window.location.href = "/";
+      }
     return(
         
         <div className="contact-cont">
             <div className="con-logo">
-                <img src={logo} alt="logo" width='13%' />
+                <img onClick={backToHome} src={logo} alt="logo" width='13%' />
             </div>
 
 

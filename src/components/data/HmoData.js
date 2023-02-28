@@ -48,7 +48,7 @@ const HmoData = [
   },
   {
     id: 4,
-    company: "Leadway Health Insurance Provider",
+    company: "Hygeia Health Insurance Provider",
     logo: logo4,
     office:"Head Office ",
     address:'Head Office, 6th Floor, Elephant House. 214, Broad street, Lagos Island.',
@@ -62,7 +62,7 @@ const HmoData = [
   },
   {
     id: 5,
-    company: "Axa Mansard Health Insurance Provider",
+    company: "RelianceHMO Health Insurance Provider",
     logo: logo5,
     office:"Head Office ",
     address:'32 Lanre Awolokun Street, Gbagada, Lagos Nigeria.',

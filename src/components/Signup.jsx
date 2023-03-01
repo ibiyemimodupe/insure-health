@@ -110,7 +110,9 @@ function Signup() {
 
             <div className='icon'>
                 <ul className="footer-list">
-                <li><FontAwesomeIcon icon={faAppleWhole} bgColor="#891180"style={{width: 50, height:50}} /></li>
+                <li><a href="/">
+                  <FontAwesomeIcon icon={faAppleWhole} bgColor="#891180"style={{width: 50, color:"#891180",height:50}} />
+                </a></li>
                 </ul>
             </div>
 

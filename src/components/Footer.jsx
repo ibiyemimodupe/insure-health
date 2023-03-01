@@ -79,10 +79,10 @@ export default function Footer() {
                     <div className="com">
                         <p>Communities</p>
                         <ul >
-                        <li><SocialIcon url="https://facebook.com" /></li>
-                        <li><SocialIcon url="https://twitter.com" /></li>
-                        <li><SocialIcon url="https://instagram.com" /></li>
-                        <li><SocialIcon url="https://linkedin.com"  /></li>
+                        <li><SocialIcon bgColor="#fff" url="https://facebook.com" /></li>
+                        <li><SocialIcon bgColor="#fff" url="https://twitter.com" /></li>
+                        <li><SocialIcon bgColor="#fff" url="https://instagram.com" /></li>
+                        <li><SocialIcon bgColor="#fff" url="https://linkedin.com"  /></li>
                         </ul>
                     </div>
                     <a href="#C3" className="up">

@@ -21,7 +21,7 @@ a{
 
 .header-cont{
     display: flex;
-    height: 550px;
+    height: 600px;
     width: 90%;
     margin: auto;
     padding-top: 120px;
@@ -42,7 +42,7 @@ a{
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 120%;
     color: #484848;
     padding-bottom: 36px;
@@ -98,7 +98,7 @@ a{
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 120%;
     color: #484848;
     margin-bottom: 32px;
@@ -107,7 +107,7 @@ a{
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 120%;
     color: #484848;
     letter-spacing: 0.08em;
@@ -162,7 +162,7 @@ a{
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   letter-spacing: 0.08em;
   color: #FFFFFF;
@@ -172,8 +172,8 @@ a{
 }
 .hero-one-pic{
   position: absolute;
-  left: 610px;
-  top: 1404px;
+  left: 550px;
+  top: 1485px;
 }
 
 /* hero2 */
@@ -193,14 +193,14 @@ a{
 }
 .hero-two-text{
   flex: 50%;
- padding-top: 2rem;
+ padding-top: 5rem;
 }
 .al{
   position: absolute;
   /* margin-top: 2rem; */
   width: 560px;
   left: 100px;
-  top: 1885px;
+  top: 1973px;
 }
 
 .hero-two-text > h1{
@@ -225,7 +225,7 @@ a{
 /* hero3 */
 .hero-three{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 45px;
   margin-bottom: 84px;
 }
 .hero-three > h1{
@@ -309,6 +309,7 @@ margin-bottom: 84px;
     text-align: start;
     font-size: 20px;
     border: 1px solid #484848;
+    border: none;
     border-radius: 12px;
     box-shadow: inset 1px 1px 3px #891180;
     transition: border-color 0.3s ease;
@@ -605,7 +606,7 @@ margin-bottom: 84px;
 }
 
 input:checked + .slider {
-  background-color: #D1F1EB;;
+  background-color: #30bda3;;
 }
 
 input:focus + .slider {
@@ -634,7 +635,7 @@ input:checked + .slider:before {
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 32px;
   padding-left: 15px;
   letter-spacing: 0.08em;
@@ -733,7 +734,9 @@ input:checked + .slider:before {
   padding: 17px 10px;
   font-size: 18px;
   border: 1px solid #484848;
+  border: none;
   border-radius: 12px;
+  box-sizing: border-box;
   box-shadow: inset 1px 1px 3px #891180;
   transition: border-color 0.3s ease;
 }
@@ -744,6 +747,8 @@ input:checked + .slider:before {
   font-size: 18px;
   height: 220px;
   border: 1px solid #484848;
+  border: none;
+  box-sizing: border-box;
   border-radius: 12px;
   box-shadow: inset 1px 1px 3px #891180;
   transition: border-color 0.3s ease;
@@ -843,7 +848,7 @@ input:checked + .slider:before {
   color:  #484848;
  font-weight: 500;
  cursor: pointer;
-  width: 15%;
+  /* width: 15%; */
 }
 .live-chat {
   position: fixed;

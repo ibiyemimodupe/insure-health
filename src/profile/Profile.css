@@ -132,7 +132,7 @@
         color: #ccc;
         font-size: 2rem;
         align-items: center;
-        margin-left: 3.5rem;
+        margin-left: 2.2rem;
         margin-top: 1rem;
         position: absolute;
       }
@@ -256,7 +256,7 @@
  font-style: normal; 
  width: 90%;
  font-weight: 400;
- font-size: 18px;
+ font-size: 16px;
  line-height: 150%;
  letter-spacing: 0.08em;
  color: #484848;
@@ -335,7 +335,7 @@ padding-top: 4rem;
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 120%;
   letter-spacing: 0.05em;
   padding-left: 10px;
@@ -344,9 +344,9 @@ padding-top: 4rem;
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 120%;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   padding: 10px;
 }
 .value__div img{
@@ -524,4 +524,104 @@ background-color: #D1F1EB;
 border: 1px solid #117D68;
 border-radius: 8px;
 padding: 10px 10px 10px 0px;
+}
+
+/* myProfile */
+
+.mp-cont{
+  display: flex;
+  width: 80%;
+  background-color: white;
+  color: black;
+}
+.mp-dash{
+  width: 270px;
+  height: 800px;
+  background-color: #FFF6F6;
+  padding-left: 1rem;
+  padding-top: 2.5rem;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+}
+.mp-prof{
+  width: 1380px;
+}
+.mp-dash img{
+  padding-bottom: 80px;
+}
+.mp-dash ol{
+  list-style: none;
+}
+.mp-dash li{
+  padding-bottom: 40px;
+}
+.prof-text{
+  text-align: center;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  color: #000000;
+  padding-top: 50px;
+}
+.mp-navbar__avatar{
+  font-size: 170px;  
+  padding: 18px;
+}
+.mp-form-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.mp-input-group {
+  flex: 1;
+  margin-right: 4rem;
+}
+
+.mp-input-group:last-child {
+  margin-right: 0;
+}
+
+.mp-input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 40px;
+  letter-spacing: 0.08em;
+}
+
+.mp-input-group input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  background: #FFFDFD;
+  box-shadow: inset 1px 1px 3px #891180;
+  border-radius: 12px;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+
+.mp-form button[type='submit'] {
+  background: #1ABB9C;
+  border: none;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
 }

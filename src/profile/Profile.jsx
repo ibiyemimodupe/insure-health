@@ -1,10 +1,10 @@
-// Import necessary dependencies and icons
+
 import { useState } from 'react';
 import '../profile/Profile.css';
 import  {FaUser, FaAngleDown, FaSignOutAlt, FaUserEdit } from 'react-icons/fa';
 import {IoPersonCircleSharp} from 'react-icons/io5';
 
-// Define the Navbar component
+
 const Profile = () => {
 
   // Define state variables
@@ -15,7 +15,7 @@ const Profile = () => {
     setDropdownOpen(!dropdownOpen);
   };
 
-  // Render the navbar
+  
   return (
     <div className="navbar__wrapper">
      
@@ -43,11 +43,11 @@ const Profile = () => {
             <ul className="navbar-dropdown-menu">
               <li className="navbar-dropdown-item">
                 <FaUser className="navbar__dropdown-icon" />
-                <a href="#" className="navbar-dropdown-link"> My Profile </a>
+                <a href="/profile" className="navbar-dropdown-link"> My Profile </a>
               </li>
               <li className="navbar-dropdown-item">
                 <FaUserEdit className="navbar__dropdown-icon" />
-                <a href="#" className="navbar-dropdown-link"> Edit Profile </a>
+                <a href="/profile" className="navbar-dropdown-link"> Edit Profile </a>
               </li>
               <li className="navbar-dropdown-item">
                 <FaSignOutAlt className="navbar__dropdown-icon" />

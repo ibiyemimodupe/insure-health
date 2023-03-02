@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import fame from "./images/amico1.png"
 import { SocialIcon } from 'react-social-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import { faUser,faAppleWhole, faEyeSlash, faEnvelope, faEye } from '@fortawesome/free-solid-svg-icons';
 
 function Signup() {
@@ -131,7 +132,9 @@ function Signup() {
           <button onClick={handleLogin} type="submit" className="form-button">
               Get Started
           </button>
-
+          <div className='acc-cont'>
+          <p>Already have an account? <Link to='/login' style={{textDecoration:'none'}}><span className='acc'>Login</span></Link> </p>
+        </div>
       </div>
 
       <div className='frame-cont'>

@@ -21,7 +21,7 @@ export default function MyProfile() {
                     </li>
                     <li >
                         <BiHelpCircle className="navbar__dropdown-icon" />
-                        <a href="/" className="navbar-dropdown-link"> help </a>
+                        <a href="/contact" className="navbar-dropdown-link"> help </a>
                     </li>
                     <li >
                         <FaSignOutAlt className="navbar__dropdown-icon" />

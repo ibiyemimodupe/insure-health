@@ -65,63 +65,72 @@ const FilterDropdownWrapper = () => {
               </div>
                 
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="F.C.T Abuja"
                   onChange={handleLocationChange}
                 />
                 F.C.T Abuja
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="Abia"
                   onChange={handleLocationChange}
                 />
                 Abia
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="Adamawa"
                   onChange={handleLocationChange}
                 />
                 Adamawa
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="Akwa-ibom"
                   onChange={handleLocationChange}
                 />
                 Akwa-ibom
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="Anambra"
                   onChange={handleLocationChange}
                 />
                 Anambra
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="Bauchi"
                   onChange={handleLocationChange}
                 />
                 Bauchi
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="Bayelsa"
                   onChange={handleLocationChange}
                 />
                 Bayelsa
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="Benue"
                   onChange={handleLocationChange}
                 />
                 Benue
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radA'
                   value="Bornu"
                   onChange={handleLocationChange}
                 />
@@ -137,35 +146,40 @@ const FilterDropdownWrapper = () => {
               </div>
                 
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radB'
                   value="HMO"
                   onChange={handlePriceRangeChange}
                 />
                 HMO
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radB'
                   value="PPO"
                   onChange={handlePriceRangeChange}
                 />
                 PPO
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radB'
                   value="POS"
                   onChange={handlePriceRangeChange}
                 />
                 POS
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radB'
                   value="EPO"
                   onChange={handlePriceRangeChange}
                 />
                 EPO
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                  name='radB'
                   value="indemnity"
                   onChange={handlePriceRangeChange}
                 />
@@ -181,28 +195,32 @@ const FilterDropdownWrapper = () => {
               </div>
                 
                 <input
-                  type="checkbox"
+                  type="radio"
+                    name='radC'
                   value="5000 - 50,000"
                   onChange={handleFieldRangeChange}
                 />
                 5000 - 50,000
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                    name='radC'
                   value="51,000 - 150,000"
                   onChange={handleFieldRangeChange}
                 />
                 51,000 - 150,000
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                    name='radC'
                   value="151,000 - 250,000"
                   onChange={handleFieldRangeChange}
                 />
                 151,000 - 250,000
                 <br />
                 <input
-                  type="checkbox"
+                  type="radio"
+                    name='radC'
                   value="250,000 Above"
                   onChange={handleFieldRangeChange}
                 />

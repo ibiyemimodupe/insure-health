@@ -6,7 +6,7 @@ export default function Hero2() {
         <div className="hero-two-cont">
             <div className="htc">
                 <div className="hero-two-img">
-                    <div className="al"><img src={contact} alt="contact us" width='90%'/></div>
+                    <div className="al"><img src={contact} alt="contact us" width='100%'/></div>
                 </div>
                 <div className="hero-two-text">
                     <h1>We’re always <br /> available to respond <br /> to your inquires </h1>

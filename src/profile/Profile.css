@@ -91,6 +91,7 @@
     .logo1 img {
         width: 100%;
         max-width: 200px;
+        cursor: pointer;
       }
     .opt1 > li{
         padding: 8px ;
@@ -413,7 +414,7 @@ padding-top: 4rem;
   line-height: 28px;
   border-bottom: 1px solid black;
 }
-input[type="checkbox"] {
+input[type="radio"] {
   appearance: none;
   border-radius: 50%;
   width: 16px;
@@ -424,7 +425,7 @@ input[type="checkbox"] {
   top: 3px;
 }
 
-input[type="checkbox"]:checked::before {
+input[type="radio"]:checked::before {
   content: "";
   position: absolute;
   top: 2px;
@@ -598,7 +599,7 @@ padding: 10px 10px 10px 0px;
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   letter-spacing: 0.08em;
 }
 

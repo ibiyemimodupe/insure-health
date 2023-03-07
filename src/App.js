@@ -14,6 +14,9 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import About from "./components/about/About";
 import MyProfile from "./profile/MyProfile";
+import Privacy from "./policy/Privacy";
+import Cookie from "./policy/Cookie"
+import Rules from "./policy/Rules"
 // import HmoData from "./components/data/HmoData";
 // import Card from "./Card";
 
@@ -67,6 +70,9 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/profile' element={<MyProfile />} />
+          <Route path='/privacy' element={<Privacy />} />
+          <Route path='/cookie' element={<Cookie />} />
+          <Route path='/rules' element={<Rules />} />
           <Route 
             path='/home' 
             element={

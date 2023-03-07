@@ -38,20 +38,26 @@ export default function Footer() {
                    <div>
                     <ol className="footer-table">
                        <li><span>Information</span></li>
-                        <li>Rules and Guidelines</li>
-                        <li>Privacy Policy</li>
-                        <li>Cookie Policy</li>
+                        <Link to='/rules'>
+                            <li>Rules and Guidelines</li>
+                        </Link>
+                        <Link to='/privacy'>
+                            <li>Privacy Policy</li>
+                        </Link>
+                        <Link to='/cookie'>
+                            <li>Cookie Policy</li>
+                        </Link>
                     </ol>
                    </div>
                    <div>
                     <ol className="footer-table">
-                        
-                        <Link to="/about" style={{textDecoration:'none'}}>
                         <span> About Us</span>
+                        <Link to="/about" style={{textDecoration:'none'}}>
+                            <li>About InsureHealth</li>
                         </Link>
-                        <li>About InsureHealth</li>
-                        <li>How To Use</li>
-                        <li>Contact us</li>
+                        <Link to='/contact'>
+                            <li>Contact us</li>
+                        </Link>
                     </ol>
                    </div>
                     <div className="footer-news">

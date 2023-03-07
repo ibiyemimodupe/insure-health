@@ -151,12 +151,12 @@ a{
 
 .hero-one{
   background-color: #891180;
-  height: 550px;
+  height: 510px;
 
 }
 .hero-one-cont{
   display: flex;
-  width: 40%;
+  /* width: 100%; */
   padding-left: 4rem;
   /* margin: auto; */
 }
@@ -169,13 +169,17 @@ a{
   letter-spacing: 0.08em;
   color: #FFFFFF;
   padding-top: 60px;
-  flex: 50%;
-  position: relative;
+  /* flex: 50%; */
+  /* position: relative; */
+  width: 45%;
 }
 .hero-one-pic{
-  position: absolute;
+  /* position: absolute;
   left: 550px;
-  top: 1485px;
+  top: 1485px; */
+  padding-top: 7.5rem;
+  width: 55%;
+  margin: auto;
 }
 
 /* hero2 */
@@ -191,19 +195,15 @@ a{
   margin: auto;
 }
 .hero-two-img{
-  flex: 50%;
+  /* flex: 50%; */
+   width: 48%;
 }
 .hero-two-text{
-  flex: 50%;
- padding-top: 5rem;
+  /* flex: 50%; */
+  width: 40%;
+ padding-top: 3rem;
 }
-.al{
-  position: absolute;
-  /* margin-top: 2rem; */
-  width: 560px;
-  left: 100px;
-  top: 1973px;
-}
+
 
 .hero-two-text > h1{
   font-family: 'Lora';
@@ -310,7 +310,8 @@ margin-bottom: 84px;
     padding: 10px 50px;
     text-align: start;
     font-size: 20px;
-    border: 1px solid #484848;
+    background: #FFFFFF;
+    border: 1px solid #808080;
     border: none;
     border-radius: 12px;
     box-shadow: inset 1px 1px 3px #891180;
@@ -1094,4 +1095,81 @@ font-size: 18px;
 border: 1px solid #484848;
 border-radius: 12px;
 box-shadow: inset 1px 1px 3px #891180;
+}
+
+/* policy */
+
+.policy-cont{
+  width: 95%;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.policy-text-cont{
+  width: 90%;
+  margin: auto;
+}
+.policy-text-cont li::marker{
+  font-size: 30px;
+  color: black;
+}
+
+.policy-list {
+  list-style-type: disc;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4B4B4A;
+  padding: 24px;
+}
+.policy-cont h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  padding-left: 15px;
+}
+.policy-text-cont h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+.policy-text-cont p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4B4B4A;
+}
+
+.cookie-list {
+  list-style-type:lower-roman;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #4B4B4A;
+  padding: 24px 0px;
+}
+.cookie-list h4{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #131211;
+}
+.p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4B4B4A;
+  padding: 10px 10px 0px 30px;
 }

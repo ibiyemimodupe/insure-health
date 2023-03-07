@@ -24,6 +24,7 @@ ul{
 .logo img {
     width: 100%;
     max-width: 200px;
+    cursor: pointer;
   }
 .opt > li{
     padding: 8px ;

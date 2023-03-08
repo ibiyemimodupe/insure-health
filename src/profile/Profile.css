@@ -228,7 +228,7 @@
   color: #720E6B;
 }
 
-/* home */
+/* about */
 .about-alt-img{
   flex: 50%;
 }
@@ -355,7 +355,28 @@ padding-top: 4rem;
   height: 200px;
   padding-top: 35px;
 }
+@media(max-width: 768px){
+  .about-alt-img{
+    display: none;
+  }
+  .about-alt-cont{
+    height: 550px;
+  }
+  .mission-cont{
+    width: 100%;
+    height: 450px;
+  }
+  .pain > h3{
+    padding-top: 60px;
+    width: 90%;
+  }
+  .value__flex{
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 
+/* home */
 /* filter */
 .filter-btn{
   position: relative;
@@ -625,4 +646,93 @@ textarea {
   border-radius: 12px;
   font-size: 1rem;
   cursor: pointer;
+}
+
+@media(max-width: 768px){
+  #hide{
+    display: none;
+  }
+  .insure-cont, .health-cont{
+    display: none;
+  }
+  .filter-btn{
+    width:155px;
+  }
+  .flt-location {
+    padding-left: 5px;
+    width: 155px;
+  }
+  .flt1-location {
+    padding-left: 5px;
+    width: 155px;
+  }
+  .flt2-location {
+    padding-left: 5px;
+    width: 155px;
+  }
+  .hmo__company{ 
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-inline-start: 35px;
+  }
+  .home__card{
+    width: 180px;
+  }
+  .hmo__contain{
+    display: wrap;
+    flex-wrap: wrap;
+  }
+  .home_card_div h1{
+    font-size: 20px;
+    padding: 0px  ;
+   }
+   .home_card_div h2{
+     font-size: 18px;
+     padding: 5px 10px;
+   }
+   .home_card_div p{
+     font-size: 15px;
+     padding: 5px 10px;
+   }
+
+   
+.mp-cont{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+.mp-dash{
+  width: 40%;
+  padding-left: 5px;
+  font-size: 16px;
+}
+.mp-prof{
+  width: 100%;
+}
+.mp-dash img{
+  padding-bottom: 80px;
+}
+.mp-dash li{
+  padding-bottom: 20px;
+}
+.prof-text{
+  font-size: 16px;
+}
+.mp-navbar__avatar{
+  font-size: 100px;  
+  padding: 10px;
+}
+.mp-form-group {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0rem;
+}
+.mp-input-group {
+  margin-right: 0rem;
+}
+.search-form-group {
+  width: 90%;
+}
 }

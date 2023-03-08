@@ -81,6 +81,7 @@ export default function Footer() {
                 <div className="footer-bottom">
                     <div>
                     <p>&copy; {new Date().getFullYear()} InsureHealth UI. All rights reserved.</p>
+                    <p>Developed with ❤️ by Ibiyemi Oluwamodupe.</p>
                     </div>
                     <div className="com">
                         <p>Communities</p>
@@ -91,6 +92,7 @@ export default function Footer() {
                         <li><SocialIcon bgColor="#fff" url="https://linkedin.com"  /></li>
                         </ul>
                     </div>
+                    
                     <a href="#C3" className="up">
                         <p>Back to the top</p>
                         <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">

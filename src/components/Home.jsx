@@ -49,14 +49,14 @@ export default function Home() {
                     </div>
                     <div className="options1">
                         <ul className="opt1">
-                            <span><li style={{fontWeight:"bold"}}>Home</li></span>
+                            <span><li id="hide" style={{fontWeight:"bold"}}>Home</li></span>
                             <Link to="/about" style={{textDecoration:'none'}}>
-                                <li style={{color:"black"}}>About Us</li>
+                                <li id="hide" style={{color:"black"}}>About Us</li>
                             </Link>
                             <Link to="/contact" style={{textDecoration:'none'}}>
-                                <li style={{color:"black"}}>Contact Us</li>
+                                <li id="hide" style={{color:"black"}}>Contact Us</li>
                             </Link>
-                            <div className="live">
+                            <div id="hide" className="live">
                               <LiveChat />
                             </div>
                             <li style={{cursor:"pointer"}}><Profile /></li>

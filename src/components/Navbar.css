@@ -92,7 +92,9 @@ ul{
     .options {
       display: none;
     }
-    
+    .nav{
+        padding: 0px 10px;
+    }
     .nav-toggle {
       display: block;
     }
@@ -101,7 +103,7 @@ ul{
         width: 150px;
         border: none;
         position: fixed;
-        top: 16%;
+        top:9%;
         right: 10px;
         z-index: 999;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);

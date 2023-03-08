@@ -5,6 +5,11 @@ import  {BiHelpCircle } from 'react-icons/bi';
 import  {MdOutlineMedicalServices } from 'react-icons/md';
 import {IoPersonCircleSharp} from 'react-icons/io5';
 
+function backToHome(event) {
+    event.preventDefault();
+    // handle login logic here
+    window.location.href = "/home";
+  }
 export default function MyProfile() {
     const [userData, setUserData] = useState({});
 
@@ -25,7 +30,7 @@ export default function MyProfile() {
     return(
         <div className="mp-cont">
             <div className="mp-dash">
-                <img src={logo} alt="logo" width='90%' />
+                <img onClick={backToHome} src={logo} alt="logo" width='90%' />
                 <ol>
                     <li >
                         <MdOutlineMedicalServices className="navbar__dropdown-icon" />

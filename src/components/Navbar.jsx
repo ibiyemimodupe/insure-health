@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css"
 import logo from "./images/Group 23.png"
 import {Link} from 'react-router-dom'
@@ -15,6 +15,22 @@ export default function Navbar() {
     const toggleLinks = () => {
         setShowLinks(!showLinks);
     }
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth >= 768) {
+                setShowLinks(true);
+            } else {
+                setShowLinks(false);
+            }
+        };
+
+        handleResize();
+
+        window.addEventListener("resize", handleResize);
+
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     return(
         <nav>

@@ -30,34 +30,3 @@ const ParentComponent = () => {
 };
 
 export default ParentComponent;
-//   {/* <input type="text" id="gender" name="gender" required /> */}
-//   <select id="gender" name="gender" required>
-//   <option value="">Select gender</option>
-//   <option value="male">Male</option>
-//   <option value="female">Female</option>
-//   <option value="other">Other</option>
-// </select>
-// </div>
-// </div>
-// <div className="mp-form-group">
-// <div className="mp-input-group">
-// <label htmlFor="nin">NIN</label>
-// <input type="text" id="nin" name="nin" required />
-// </div>
-// <div className="mp-input-group">
-// <label htmlFor="dob">Date of birth</label>
-// <input type="date" id="dob" name="dob" required />
-// </div>
-// </div>
-// <div className="mp-form-group">
-// <div className="mp-input-group">
-// <label htmlFor="address">Address</label> <br />
-// <textarea id="address" name="address" placeholder="Enter Address" required></textarea>
-// </div>
-// </div>
-// <button type="submit">Submit</button>
-// </form>
-// </div>
-// </div>
-// )
-// }

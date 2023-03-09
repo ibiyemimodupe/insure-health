@@ -290,6 +290,9 @@ a{
   letter-spacing: 0.08em;
   color: #484848;
 }
+.hero-three img{
+  max-width: 80%;
+}
 .exp > p {
   width: 100%;
   text-align: center; 
@@ -374,7 +377,7 @@ margin-bottom: 84px;
     font-size: 20px;
     background: #FFFFFF;
     border: 1px solid #808080;
-    border: none;
+    /* border: none; */
     border-radius: 12px;
     box-shadow: inset 1px 1px 3px #891180;
     transition: border-color 0.3s ease;
@@ -840,7 +843,7 @@ input:checked + .slider:before {
   font-size: 18px;
   height: 220px;
   border: 1px solid #484848;
-  border: none;
+  /* border: none; */
   box-sizing: border-box;
   border-radius: 12px;
   box-shadow: inset 1px 1px 3px #891180;

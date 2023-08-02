@@ -25,17 +25,18 @@ export default function Home() {
     const card = HmoData.map(item => {
         return (
             <Card 
-               company={item.company}
-               logo={item.logo}
-               office={item.office}
-               address={item.address}
-               other={item.other}
-               offer={item.offer}
-               text={item.text}
-               health={item.health}
-               care={item.care}
-               afford={item.afford}
-               coverage={item.coverage}
+                { ...item }
+            //    company={item.company}
+            //    logo={item.logo}
+            //    office={item.office}
+            //    address={item.address}
+            //    other={item.other}
+            //    offer={item.offer}
+            //    text={item.text}
+            //    health={item.health}
+            //    care={item.care}
+            //    afford={item.afford}
+            //    coverage={item.coverage}
             />
         )
     }) 

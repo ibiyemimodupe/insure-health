@@ -830,7 +830,7 @@ input:checked + .slider:before {
   padding: 17px 10px;
   font-size: 18px;
   border: 1px solid #484848;
-  border: none;
+  /* border: none; */
   border-radius: 12px;
   box-sizing: border-box;
   box-shadow: inset 1px 1px 3px #891180;

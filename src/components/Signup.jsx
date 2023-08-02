@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import fame from "./images/amico1.png"
 import { SocialIcon } from 'react-social-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+import { Link, json } from 'react-router-dom';
 import { faUser,faAppleWhole, faEyeSlash, faEnvelope, faEye } from '@fortawesome/free-solid-svg-icons';
 
 function Signup() {
@@ -15,11 +15,35 @@ function Signup() {
     setShowPassword(!showPassword);
   };
 
-  function handleLogin(event) {
+  async function  handleLogin(event) {
     event.preventDefault();
+
+    const url = "https://insurenceapis.vercel.app/api/signup";
+    const payload = {
+      name,
+      email: username,
+      password
+    }
+    const opts = {
+      method: "POST",
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(payload)
+    }
+    try {
+       const req = await fetch(url, opts);
+    const res = await req.json();
+
+    console.log(req.status)
+    console.log(res);
+    } catch (error) {
+      alert(`your request failed with error message: ${error.message}`)
+    }
+   
+    
     // handle login logic here
     window.location.href = "/home";
   }
+
 
   return (
     <div className='login-page'>
@@ -129,7 +153,7 @@ function Signup() {
           <p>I agree to the  <span>terms of service</span> and <span>condition</span>.</p>
          </div>
 
-          <button onClick={handleLogin} type="submit" className="form-button">
+          <button className="form-button" onClick={handleLogin}>
               Get Started
           </button>
           <div className='acc-cont'>

@@ -93,7 +93,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     
-                    <a href="#C3" className="up">
+                    <a href="#" className="up" onClick={() => window.scrollTo(0, 0)}>
                         <p>Back to the top</p>
                         <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M7.29419 12.25V3.80884" stroke="#5B0B55" stroke-width="1.20587" stroke-linecap="round" stroke-linejoin="round"/>

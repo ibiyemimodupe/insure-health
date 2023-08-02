@@ -17,7 +17,8 @@ const HmoData = [
     health:"View health plans",
     care:"EasyCare: affordable and quality healthcare International Health Plan.",
     afford:"An affordable health plan with access to quality healthcare for you & your loved ones. Pay as low as ₦12,000 and a comprehensive health plan providing cover worldwide including USA",
-    coverage:"View coverage"
+    coverage:"View coverage",
+    path: '/signup',
   },
   {
     id: 2,

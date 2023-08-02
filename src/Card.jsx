@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Card(props) {
-    const {company, logo, office, address, other, offer, text, health, care, afford, coverage } = props;
+    const {company, logo, office, address, other, offer, text, health, care, afford, coverage, path='#' } = props;
     return (
       <div className="home__card">
             <div className="home_card_div">
@@ -10,7 +11,7 @@ export default function Card(props) {
                 <img  src={logo} alt="img" width="100%"/> 
                 <h2 >{office}</h2>
                 <p >{address}</p>
-                <div className="ab"><button>{other}</button></div>
+                <div className="ab"><Link to={path}>{other}</Link></div>
               </div>
               <div className="bb">
                   <h2 className="dd">{offer}</h2>

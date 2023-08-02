@@ -1,177 +1,177 @@
-    .navbar__avatar {
-    font-size: 55px;
-    display: flex;
-    align-items: center;
-    }
-  
-    .navbar-dropdown-icon {
-    font-size: 15px;
-    cursor: pointer;
-    }
-    
-    .navbar__dropdown-avatar {
-    font-size: 50px;
-    }
-    .navbar-dropdown-menu{
-        display: inline;
-    }
-    .navbar__dropdown {
-    background-color: #fff;
-    width: 150px;
-    border: none;
-    position: fixed;
-    top: 10.5%;
-    right: 10px;
-    z-index: 999;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-    padding: 30px 25px 25px;
-    }
-    
-    .navbar-dropdown-item {
-    list-style: none;
-    border-bottom: 1px solid rgba(68, 68, 68, 0.3);
-    margin-block-end: 16px;
-    padding-block-end: 13px;
-    }
-    
-    .navbar__dropdown-icon {
-    font-size: 17px;
-    margin-inline-end: 18px;
-    color: #444;
-    }
-    
-    .navbar-dropdown-link {
-    font-size: 15px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #444;
-    }
-    
-    .navbar-dropdown-user {
-    margin-block-end: 30px;
-    }
-    
-    .navbar-dropdown-user h3 {
-    font-size: 20px;
-    font-weight: 500;
-    color: #000;
-    }
-    
-    .navbar-dropdown-user p {
-    font-size: 15px;
-    color: #444;
-    }
-    
-    .navbar-dropdown-header {
-    text-align: center;
-    }
-  
-   /* home navbar */
-    .home-cont{
-        width: 100%;
-        font-size: 17px;
-        /* position: fixed; */
-        background-color: white;
-        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-        /* z-index: 999; */
-    }
-    .nav1{
-        display: flex;
-        width: 90%;
-        margin: auto;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .opt1{
-        display: flex;
-        list-style: none;
-        align-items: center;
-        gap: 42px;
-    }
-    .logo1 img {
-        width: 100%;
-        max-width: 200px;
-        cursor: pointer;
-      }
-    .opt1 > li{
-        padding: 8px ;
-    }
-    .options1 {
-        align-items: center;
-        color:  #484848;
-        width: 50%;
-    }
-    
-/* searchBar */  
-      .search-form-group {
-        display: flex;
-        align-items: center;
-        width: 55%;
-        margin: auto;
-        position: relative;
-      }
-      .search-input {
-        display: block;
-        width: 75%;
-        margin: auto;
-         margin-top: 18px;
-        padding: 10px 70px;
-        text-align: start;
-        font-size: 20px;
-        border: 1px solid #484848;
-        border-radius: 12px;
-        box-shadow: inset 1px 1px 3px #891180;
-        transition: border-color 0.3s ease;
-      }
-      
-      .search-input:focus {
-        outline: none;
-        border-color: #1ABB9C;
-      }
-      
-      .search-form-icon {
-        color: #ccc;
-        font-size: 2rem;
-        align-items: center;
-        margin-left: 2.2rem;
-        margin-top: 1rem;
-        position: absolute;
-      }
+.navbar__avatar {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+}
 
-      /* array insurance */
-      .insure-cont{
-        padding-top: 4rem;
-        display: flex;
-        margin: auto;
-        width: 90%;
-      }
-      .insure-cont > h1{
-       flex: 0.8;
-       width: 20%;
-       box-sizing: border-box;
-      font-family: 'Lora';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 35px;
-      line-height: 32px;
-      display: flex;
-      align-items: center;
-      letter-spacing: 0.08em;
-      color: #1B031A;
-      background: #FFF6F6;
-      padding-left: 1.5rem;
-      text-shadow: 1.63528px 1.63528px 3.27056px rgba(0, 0, 0, 0.25);
-      }
-      .insure-cont img{
-        width: 100%;
-        max-width: 850px;
-        /* background-color: aqua; */
-        flex: 1;
-      }
+.navbar-dropdown-icon {
+  font-size: 15px;
+  cursor: pointer;
+}
 
- /* health container */
+.navbar__dropdown-avatar {
+  font-size: 50px;
+}
+.navbar-dropdown-menu {
+  display: inline;
+}
+.navbar__dropdown {
+  background-color: #fff;
+  width: 150px;
+  border: none;
+  position: fixed;
+  top: 10.5%;
+  right: 10px;
+  z-index: 999;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 30px 25px 25px;
+}
 
-.health-cont{
+.navbar-dropdown-item {
+  list-style: none;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.3);
+  margin-block-end: 16px;
+  padding-block-end: 13px;
+}
+
+.navbar__dropdown-icon {
+  font-size: 17px;
+  margin-inline-end: 18px;
+  color: #444;
+}
+
+.navbar-dropdown-link {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #444;
+}
+
+.navbar-dropdown-user {
+  margin-block-end: 30px;
+}
+
+.navbar-dropdown-user h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.navbar-dropdown-user p {
+  font-size: 15px;
+  color: #444;
+}
+
+.navbar-dropdown-header {
+  text-align: center;
+}
+
+/* home navbar */
+.home-cont {
+  width: 100%;
+  font-size: 17px;
+  /* position: fixed; */
+  background-color: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  /* z-index: 999; */
+}
+.nav1 {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.opt1 {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 42px;
+}
+.logo1 img {
+  width: 100%;
+  max-width: 200px;
+  cursor: pointer;
+}
+.opt1 > li {
+  padding: 8px;
+}
+.options1 {
+  align-items: center;
+  color: #484848;
+  width: 50%;
+}
+
+/* searchBar */
+.search-form-group {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  margin: auto;
+  position: relative;
+}
+.search-input {
+  display: block;
+  width: 75%;
+  margin: auto;
+  margin-top: 18px;
+  padding: 10px 70px;
+  text-align: start;
+  font-size: 20px;
+  border: 1px solid #484848;
+  border-radius: 12px;
+  box-shadow: inset 1px 1px 3px #891180;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #1abb9c;
+}
+
+.search-form-icon {
+  color: #ccc;
+  font-size: 2rem;
+  align-items: center;
+  margin-left: 2.2rem;
+  margin-top: 1rem;
+  position: absolute;
+}
+
+/* array insurance */
+.insure-cont {
+  padding-top: 4rem;
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
+.insure-cont > h1 {
+  flex: 0.8;
+  width: 20%;
+  box-sizing: border-box;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.08em;
+  color: #1b031a;
+  background: #fff6f6;
+  padding-left: 1.5rem;
+  text-shadow: 1.63528px 1.63528px 3.27056px rgba(0, 0, 0, 0.25);
+}
+.insure-cont img {
+  width: 100%;
+  max-width: 850px;
+  /* background-color: aqua; */
+  flex: 1;
+}
+
+/* health container */
+
+.health-cont {
   display: flex;
   padding-top: 5rem;
   width: 90%;
@@ -179,35 +179,34 @@
   margin: auto;
   /* background-color: #1ABB9C; */
 }
-.col-btn{
-    display: flex;
-    width: 300px;
+.col-btn {
+  display: flex;
+  width: 300px;
   flex-direction: column-reverse;
 }
-.health-cont-btn{
+.health-cont-btn {
   padding: 15px;
-  background: #9D3995;
+  background: #9d3995;
   border-radius: 11.1977px;
   border-color: transparent;
   color: white;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.08em;
 }
-.health__div{
+.health__div {
   display: flex;
   width: 500px;
-
 }
-.health__text{
+.health__text {
   width: 50%;
 }
-.health__text > p{
+.health__text > p {
   width: 553.27px;
   height: 195px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 24.291px;
@@ -215,77 +214,77 @@
   letter-spacing: 0.08em;
   color: #000000;
 }
-.talk-btn{
+.talk-btn {
   padding: 9.26939px 46.3469px;
-  background:  #e6b9e4;
+  background: #e6b9e4;
   border-radius: 9.26939px;
   border-color: transparent;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.08em;
-  color: #720E6B;
+  color: #720e6b;
 }
 
 /* about */
-.about-alt-img{
+.about-alt-img {
   flex: 50%;
 }
 
-.about-alt-cont{
- background: #FFF6F6;
- height: 450px;
- padding-top: 70px;
- padding-bottom: 93px;
+.about-alt-cont {
+  background: #fff6f6;
+  height: 450px;
+  padding-top: 70px;
+  padding-bottom: 93px;
 }
-.alt{
- margin-top: 3rem;
- width: 100%;
- max-width: 554px;
+.alt {
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 554px;
 }
-.alt-text > h1{
- font-family: 'Lora';
- font-style: normal;
- font-weight: 700; 
- font-size: 35px;
- color: #484848;
- padding-bottom: 30px;
+.alt-text > h1 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #484848;
+  padding-bottom: 30px;
 }
-.alt-text > p{
- font-family: 'Merriweather';
- font-style: normal; 
- width: 90%;
- font-weight: 400;
- font-size: 16px;
- line-height: 150%;
- letter-spacing: 0.08em;
- color: #484848;
+.alt-text > p {
+  font-family: "Merriweather";
+  font-style: normal;
+  width: 90%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.08em;
+  color: #484848;
 }
-.alt-text{
-flex: 50%;
-padding-top: 4rem;
+.alt-text {
+  flex: 50%;
+  padding-top: 4rem;
 }
 
 /* mission */
-.mission > p{
+.mission > p {
   padding-top: 2rem;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 150%;
   letter-spacing: 0.08em;
 }
-.mission-cont{
-  background: #D1F1EB;
+.mission-cont {
+  background: #d1f1eb;
   width: 1080px;
   height: 345px;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.mission{
+.mission {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -293,14 +292,13 @@ padding-top: 4rem;
   font-size: 18px;
   /* background-color: #5B0B55; */
 }
-.pain{
+.pain {
   width: 100%;
   height: 300px;
-  background-color: #E7CFE6;
-
+  background-color: #e7cfe6;
 }
-.pain > h3{
-  font-family: 'Merriweather';
+.pain > h3 {
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -314,7 +312,7 @@ padding-top: 4rem;
 }
 
 /* value */
-.value__flex{
+.value__flex {
   display: flex;
   width: 90%;
   margin: auto;
@@ -323,17 +321,17 @@ padding-top: 4rem;
   margin-bottom: 4rem;
 }
 
-.value__div{
+.value__div {
   width: 349px;
   height: 490px;
   text-align: center;
-  background: #1ABB9C;
+  background: #1abb9c;
   color: white;
 }
-.value__div > p{
+.value__div > p {
   width: 331px;
   text-align: start;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -341,8 +339,8 @@ padding-top: 4rem;
   letter-spacing: 0.05em;
   padding-left: 10px;
 }
-.value__div h1{
-  font-family: 'Merriweather';
+.value__div h1 {
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -350,30 +348,30 @@ padding-top: 4rem;
   letter-spacing: 0.1em;
   padding: 10px;
 }
-.value__div img{
+.value__div img {
   width: 230px;
   height: 200px;
   padding-top: 35px;
 }
-@media(max-width: 768px){
-  .about-alt-img{
+@media (max-width: 768px) {
+  .about-alt-img {
     display: none;
   }
-  .about-alt-cont{
+  .about-alt-cont {
     height: 550px;
   }
-  .mission-cont{
+  .mission-cont {
     width: 100%;
     height: 450px;
   }
-  .mission{
+  .mission {
     padding-top: 3rem;
   }
-  .pain > h3{
+  .pain > h3 {
     padding-top: 60px;
     width: 90%;
   }
-  .value__flex{
+  .value__flex {
     flex-wrap: wrap;
     gap: 30px;
   }
@@ -381,7 +379,7 @@ padding-top: 4rem;
 
 /* home */
 /* filter */
-.filter-btn{
+.filter-btn {
   position: relative;
   padding: 15px;
   background: transparent;
@@ -389,7 +387,7 @@ padding-top: 4rem;
   border-radius: 11.1977px;
   border-color: black;
   color: black;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   text-align: start;
@@ -404,9 +402,9 @@ padding-top: 4rem;
   transform: translateY(-50%);
 }
 
-.filter-cont{
-    letter-spacing: 0.08em;
-    line-height: 38px;
+.filter-cont {
+  letter-spacing: 0.08em;
+  line-height: 38px;
 }
 
 .flt-location {
@@ -427,11 +425,11 @@ padding-top: 4rem;
   border: 0.941645px solid #000000;
   border-radius: 11.2997px;
 }
-.flt-loc-cont .label{
+.flt-loc-cont .label {
   width: 90%;
   height: 28px;
   padding: 4px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -443,7 +441,7 @@ input[type="radio"] {
   border-radius: 50%;
   width: 16px;
   height: 16px;
-  border: 1px solid #1ABB9C;
+  border: 1px solid #1abb9c;
   margin-right: 6px;
   position: relative;
   top: 3px;
@@ -456,137 +454,150 @@ input[type="radio"]:checked::before {
   left: 2px;
   width: 10px;
   height: 10px;
-  background-color: #1ABB9C;
+  background-color: #1abb9c;
   border-radius: 50%;
 }
-.hmo__contain{
+.hmo__contain {
   width: 90%;
   margin: auto;
   display: flex;
   margin-top: 30px;
 }
-.hmo__company{
+.hmo__company {
   margin-top: 1rem;
   margin-bottom: 35px;
   display: grid;
   justify-content: space-around;
-  width: 80%;  
+  width: 80%;
   gap: 40px;
   grid-template-columns: 1fr 1fr;
   margin-inline-start: 30px;
 }
-.home__card{
+.home__card {
   padding: 0px;
   width: 380px;
   border-radius: 8px;
 }
-.home_card_div h1{
- font-family: 'Lora';
- font-style: normal;
- font-weight: 700;
- font-size: 27px;
- line-height: 24px;
- box-shadow: 0px 3px 4px 2px rgba(60, 163, 126, 0.5);
- background-color: #D1F1EB;
- padding: 10px  ;
- height: 69px;
- letter-spacing: 0.08em;
- box-sizing: border-box;
- color: #0D5E4E;
+.home_card_div h1 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 24px;
+  box-shadow: 0px 3px 4px 2px rgba(60, 163, 126, 0.5);
+  background-color: #d1f1eb;
+  padding: 10px;
+  height: 69px;
+  letter-spacing: 0.08em;
+  box-sizing: border-box;
+  color: #0d5e4e;
 }
-.home_card_div h2{
-  font-family: 'Merriweather';
+.home_card_div h2 {
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 32px;
   padding: 5px 20px;
   letter-spacing: 0.08em;
-  background-color: #D1F1EB;
+  background-color: #d1f1eb;
   color: #000000;
 }
-.home_card_div p{
-  font-family: 'Merriweather';
+.home_card_div p {
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   padding: 5px 20px;
-  background-color: #D1F1EB;
+  background-color: #d1f1eb;
   letter-spacing: 0.08em;
   color: #000000;
 }
-.home_card_div button{
+.home_card_div button {
   cursor: pointer;
   width: 150px;
   height: 35px;
   border-color: transparent;
-  background: #1ABB9C;
+  background: #1abb9c;
   border-radius: 6.35294px;
 }
-.aa{  
+.ab > a {
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  border-color: transparent;
+  background: #1abb9c;
+  border-radius: 6.35294px;
+}
+.aa {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   padding: 8px;
-  background-color: #D1F1EB;
+  background-color: #d1f1eb;
 }
-.ab{  
+.ab {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  background-color: #D1F1EB;
+  background-color: #d1f1eb;
   padding: 15px;
 }
-.dd{
+.dd {
   width: 20%;
-  background-color: #D1F1EB;
+  background-color: #d1f1eb;
 }
-.bb{
-background-color: #D1F1EB;
-border: 1px solid #117D68;
-border-radius: 8px;
-padding: 10px 10px 10px 0px;
+.bb {
+  background-color: #d1f1eb;
+  border: 1px solid #117d68;
+  border-radius: 8px;
+  padding: 10px 10px 10px 0px;
 }
 
 /* myProfile */
 
-.mp-cont{
+.mp-cont {
   display: flex;
   width: 80%;
   background-color: white;
   color: black;
 }
-.mp-dash{
+.mp-dash {
   width: 270px;
   height: 800px;
-  background-color: #FFF6F6;
+  background-color: #fff6f6;
   padding-left: 1rem;
   padding-top: 2.5rem;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 0.08em;
 }
-.mp-prof{
+.mp-prof {
   width: 1380px;
 }
-.mp-dash img{
+.mp-dash img {
   padding-bottom: 80px;
 }
-.mp-dash ol{
+.mp-dash ol {
   list-style: none;
 }
-.mp-dash li{
+.mp-dash li {
   padding-bottom: 40px;
 }
-.prof-text{
+.prof-text {
   text-align: center;
-  font-family: 'Lora';
+  font-family: "Lora";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -595,8 +606,8 @@ padding: 10px 10px 10px 0px;
   color: #000000;
   padding-top: 50px;
 }
-.mp-navbar__avatar{
-  font-size: 170px;  
+.mp-navbar__avatar {
+  font-size: 170px;
   padding: 18px;
 }
 .mp-form-group {
@@ -618,7 +629,7 @@ padding: 10px 10px 10px 0px;
 .mp-input-group label {
   display: block;
   margin-bottom: 0.5rem;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -632,7 +643,7 @@ select,
 textarea {
   width: 100%;
   padding: 0.5rem;
-  background: #FFFDFD;
+  background: #fffdfd;
   box-shadow: inset 1px 1px 3px #891180;
   border-radius: 12px;
   border: none;
@@ -641,8 +652,8 @@ textarea {
   box-sizing: border-box;
 }
 
-.mp-form button[type='submit'] {
-  background: #1ABB9C;
+.mp-form button[type="submit"] {
+  background: #1abb9c;
   border: none;
   color: #fff;
   padding: 12px 50px;
@@ -651,15 +662,16 @@ textarea {
   cursor: pointer;
 }
 
-@media(max-width: 768px){
-  #hide{
+@media (max-width: 768px) {
+  #hide {
     display: none;
   }
-  .insure-cont, .health-cont{
+  .insure-cont,
+  .health-cont {
     display: none;
   }
-  .filter-btn{
-    width:155px;
+  .filter-btn {
+    width: 155px;
   }
   .flt-location {
     padding-left: 5px;
@@ -673,69 +685,68 @@ textarea {
     padding-left: 5px;
     width: 155px;
   }
-  .hmo__company{ 
+  .hmo__company {
     gap: 20px;
     grid-template-columns: 1fr 1fr;
     margin-inline-start: 35px;
   }
-  .home__card{
+  .home__card {
     width: 180px;
   }
-  .hmo__contain{
+  .hmo__contain {
     display: wrap;
     flex-wrap: wrap;
   }
-  .home_card_div h1{
+  .home_card_div h1 {
     font-size: 20px;
-    padding: 0px  ;
-   }
-   .home_card_div h2{
-     font-size: 18px;
-     padding: 5px 10px;
-   }
-   .home_card_div p{
-     font-size: 15px;
-     padding: 5px 10px;
-   }
+    padding: 0px;
+  }
+  .home_card_div h2 {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  .home_card_div p {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
 
-   
-.mp-cont{
-  display: flex;
-  width: 100%;
-  background-color: white;
-  color: black;
-}
-.mp-dash{
-  width: 40%;
-  padding-left: 5px;
-  font-size: 16px;
-}
-.mp-prof{
-  width: 100%;
-}
-.mp-dash img{
-  padding-bottom: 80px;
-}
-.mp-dash li{
-  padding-bottom: 20px;
-}
-.prof-text{
-  font-size: 16px;
-}
-.mp-navbar__avatar{
-  font-size: 100px;  
-  padding: 10px;
-}
-.mp-form-group {
-  display: block;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 0rem;
-}
-.mp-input-group {
-  margin-right: 0rem;
-}
-.search-form-group {
-  width: 90%;
-}
+  .mp-cont {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+  }
+  .mp-dash {
+    width: 40%;
+    padding-left: 5px;
+    font-size: 16px;
+  }
+  .mp-prof {
+    width: 100%;
+  }
+  .mp-dash img {
+    padding-bottom: 80px;
+  }
+  .mp-dash li {
+    padding-bottom: 20px;
+  }
+  .prof-text {
+    font-size: 16px;
+  }
+  .mp-navbar__avatar {
+    font-size: 100px;
+    padding: 10px;
+  }
+  .mp-form-group {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0rem;
+  }
+  .mp-input-group {
+    margin-right: 0rem;
+  }
+  .search-form-group {
+    width: 90%;
+  }
 }

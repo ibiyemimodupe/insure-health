@@ -8,7 +8,7 @@ function SlideText({slides}) {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentIndex((currentIndex + 1) % slides.length);
+      setCurrentIndex(p => (p + 1) % slides.length);
     }, 2000);
 
     return () => {
